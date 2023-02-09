@@ -131,9 +131,9 @@ while True:
         create_order(ORDER_SIDE_BUY, coins_data[i], position_id, coins[i], get_size(coins[i], balance / (len(list_index) + 0.0125 * len(list_index))), "IOC")
         print("\nOpening a long position with", coins[i])
     if (nb_position_open <= 1):
-        print(nb_position_open, "position created\n")
+        print("\n", nb_position_open, " position created\n", sep="")
     else:
-        print(nb_position_open, "positions created\n")
+        print("\n", nb_position_open, " positions created\n", sep="")
 
     # Actualizing trade_history.txt
     print("Actualizing trade_history.txt\n\n")
