@@ -1,5 +1,5 @@
 # Trading-bot-dydx
-A trading bot that work with the dydx API
+A trading bot that works with the dydx API
 
 1. To use this bot you need to have a wallet that is compatible with dydx like [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr "Metamask")
 
@@ -14,13 +14,13 @@ git clone git@github.com:1NainConnu34/Trading-bot-dydx.git
 ```
 
 
-5. Get your api key, secret key, passphrase and stark private key ny followinf those steps :
+5. Get your API key, secret key, passphrase and stark private key by following those steps :
 
 - From the dydx Perpetuals exchange, right-click anywhere on your web browser, and select Inspect to open Developer Tools
 - Go to Application > Local Storage > https://trade.dydx.exchange
 - Select STARK_KEY_PAIRS and click the drop-down next to your wallet address to get the stark private key
 - Select API_KEY_PAIRS and click the drop-down next to your wallet address to get the API key, secret key, and passphrase
 
-6. Now put your ethereum address, API key, secret key, passphrase and stark private key in the script where it is indicated
+6. Now put your Ethereum address, API key, secret key, passphrase and stark private key in the script where it is indicated
 
 7. You can now run the bot
